@@ -14,16 +14,16 @@
 }
 
 input{
-    width: 305px;
+    width: 285px;
     height: 80px;
-    color: white;
+    color: black;
     display: block;
     background-color: white;
-    /* margin-left: auto; */
     border-radius: 4px;
     margin-bottom: 5px;
-    border-style: none;
-    /* margin-right: auto; */
+    font-size: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
 }
 .keys{ 
     display: flex;
@@ -34,22 +34,31 @@ input{
     padding: 20px;
     background-color: white;
 }
-/* .keys2{ 
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-
-    color: white;
-    padding: 20px;
-    background-color: darkgray;
-} */
 ::placeholder{
     font-size: 20px;
-    padding-left: 20px;
 }
 h2{
     color: white;
     text-align: center;
     font-size: 40px;
     margin-bottom:5px;
+}
+.cancel{
+    background-color: red;
+    width: 100px;
+    height: 80px;
+    border-radius: 4px;
+    color: white;
+}
+h1{
+    text-align: center; font-size: 30px;
+}
+.cals{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 430px;
+    height: 430px;
+    background-color: rgb(39, 201, 201);
+    margin-top: 100px;
 }
